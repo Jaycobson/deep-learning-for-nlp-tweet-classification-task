@@ -18,13 +18,13 @@ Models and Results
 
 The repository includes the following deep learning models, ranked by their performance based on AUC score:
 
-*Bi-directional LSTM* : This model achieved the highest AUC score among the models implemented. It leverages the bidirectional nature of LSTM to capture contextual information in both forward and backward directions.
+**Bi-directional LSTM** : This model achieved the highest AUC score among the models implemented. It leverages the bidirectional nature of LSTM to capture contextual information in both forward and backward directions.
 
-GRU (Gated Recurrent Unit): The GRU-based model achieved slightly lower performance compared to the Bi-directional LSTM. It has fewer parameters and is computationally efficient while still capturing sequential dependencies.
+**GRU (Gated Recurrent Unit)**: The GRU-based model achieved slightly lower performance compared to the Bi-directional LSTM. It has fewer parameters and is computationally efficient while still capturing sequential dependencies.
 
-LSTM (Long Short-Term Memory): The LSTM model performed slightly lower than the Bi-directional LSTM and GRU models. It excels at capturing long-term dependencies and has been widely used in various NLP tasks.
+**LSTM (Long Short-Term Memory):** The LSTM model performed slightly lower than the Bi-directional LSTM and GRU models. It excels at capturing long-term dependencies and has been widely used in various NLP tasks.
 
-Simple RNN (Recurrent Neural Network): The Simple RNN model achieved the lowest performance among the implemented models. It struggles with capturing long-term dependencies and may suffer from the vanishing gradient problem.
+**Simple RNN (Recurrent Neural Network):** The Simple RNN model achieved the lowest performance among the implemented models. It struggles with capturing long-term dependencies and may suffer from the vanishing gradient problem.
 
 
 
