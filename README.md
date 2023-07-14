@@ -18,7 +18,7 @@ Models and Results
 
 The repository includes the following deep learning models, ranked by their performance based on AUC score:
 
-Bi-directional LSTM: This model achieved the highest AUC score among the models implemented. It leverages the bidirectional nature of LSTM to capture contextual information in both forward and backward directions.
+*Bi-directional LSTM* : This model achieved the highest AUC score among the models implemented. It leverages the bidirectional nature of LSTM to capture contextual information in both forward and backward directions.
 
 GRU (Gated Recurrent Unit): The GRU-based model achieved slightly lower performance compared to the Bi-directional LSTM. It has fewer parameters and is computationally efficient while still capturing sequential dependencies.
 
